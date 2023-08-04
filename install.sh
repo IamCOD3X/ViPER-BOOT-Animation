@@ -124,9 +124,9 @@ REPLACE="
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "         ViP3R BOOT 1.0        "
+  ui_print "        ViP3R BOOT 1.0         "
   ui_print "       ~ @ViPER_KERNELs        "
-  ui_print "---------By- IamCOD3X----------"
+  ui_print "---------By--IamCOD3X----------"
   ui_print "*******************************"
   ui_print "-----www.viper-kernel.tech-----"
   
@@ -137,7 +137,7 @@ print_modname() {
 on_install() {
   # The following is the default implementation: extract $ZIPFILE/system to $MODPATH
   # Extend/change the logic to whatever you want
-  ui_print "- Extracting module files"
+  ui_print "- Extracting Boot Animation"
   unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
 }
 
